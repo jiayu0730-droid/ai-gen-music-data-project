@@ -1,0 +1,13 @@
+data_type,itunes_available,spotify_available
+Track Name,Yes,Partial
+Artist Name,Yes,Yes
+Album Name,Yes,Partial
+Genre,Yes,Yes
+Release Date,Yes,Partial
+Track Price,Yes,No
+Preview URL,Yes,Partial
+Artist Followers,No,Yes
+Popularity Score,No,Yes
+Revenue,No,No
+Listener Demographics,No,No
+User-level Listening Data,No,No
