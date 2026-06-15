@@ -1,0 +1,58 @@
+country_code,country_name,region_group,genre,content_type,lyric_style,language,query,itunes_query,itunes_catalog_count,unique_artists,unique_itunes_genres,avg_track_price
+NZ,New Zealand,Oceania,pop,lyrical,english,en,New Zealand pop song,New Zealand pop song,0,0,0,
+CA,Canada,North America,lofi,instrumental,no_lyrics,en,lofi study music Canada,lofi study music Canada,2,2,2,1.1400000000000001
+DE,Germany,Europe,jazz,instrumental,no_lyrics,de,German jazz instrumental,German jazz instrumental,4,4,4,1.215
+IN,India,South Asia,lofi,instrumental,no_lyrics,hi,Hindi lofi music,Hindi lofi music,45,32,4,17.444444444444443
+GB,United Kingdom,Europe,jazz,instrumental,no_lyrics,en,jazz instrumental UK,jazz instrumental UK,46,36,17,0.8746666666666667
+AU,Australia,Oceania,lofi,instrumental,no_lyrics,en,Australia lofi music,Australia lofi music,49,17,6,1.843061224489796
+SG,Singapore,Southeast Asia,pop,lyrical,english,en,Singapore pop song,Singapore pop song,49,41,8,1.433061224489796
+KR,South Korea,East Asia,lofi,instrumental,no_lyrics,ko,Korean lofi music,Korean lofi music,50,44,13,
+KR,South Korea,East Asia,pop,lyrical,local_language,ko,Korean pop song,Korean pop song,50,28,7,
+MX,Mexico,Latin America,jazz,instrumental,no_lyrics,es,Latin jazz instrumental,Latin jazz instrumental,50,9,6,12.06
+MX,Mexico,Latin America,pop,lyrical,humorous,es,Spanish funny song,Spanish funny song,50,32,14,14.204081632653061
+MX,Mexico,Latin America,pop,lyrical,local_language,es,Mexican pop song,Mexican pop song,50,37,6,14.448979591836734
+MY,Malaysia,Southeast Asia,pop,lyrical,local_language,ms,Malay pop song,Malay pop song,50,35,14,3.66
+NL,Netherlands,Europe,edm,instrumental,no_lyrics,nl,Dutch electronic music,Dutch electronic music,50,29,9,1.212
+NL,Netherlands,Europe,pop,lyrical,local_language,nl,Dutch pop song,Dutch pop song,50,31,6,1.2262
+PH,Philippines,Southeast Asia,pop,lyrical,english,en,OPM pop song,OPM pop song,50,31,9,42.0
+SE,Sweden,Europe,edm,instrumental,no_lyrics,sv,Swedish electronic music,Swedish electronic music,50,31,10,11.55813953488372
+KR,South Korea,East Asia,jazz,instrumental,no_lyrics,ko,Korean jazz instrumental,Korean jazz instrumental,50,34,9,
+SE,Sweden,Europe,pop,lyrical,local_language,sv,Swedish pop song,Swedish pop song,50,32,5,11.551020408163266
+TH,Thailand,Southeast Asia,lofi,instrumental,no_lyrics,th,Thai lofi music,Thai lofi music,50,32,8,19.0
+TH,Thailand,Southeast Asia,pop,lyrical,local_language,th,Thai pop song,Thai pop song,50,33,9,18.84
+TW,Taiwan,East Asia,lofi,instrumental,no_lyrics,zh,Taiwan lofi music,Taiwan lofi music,50,46,14,25.217391304347824
+TW,Taiwan,East Asia,pop,lyrical,local_language,zh,Taiwan mandarin pop song,Taiwan mandarin pop song,50,32,5,20.8
+US,United States,North America,jazz,instrumental,no_lyrics,en,jazz instrumental music,jazz instrumental music,50,24,3,0.978
+US,United States,North America,jazz,lyrical,vocal,en,jazz vocal song,jazz vocal song,50,23,12,1.2777551020408162
+US,United States,North America,lofi,instrumental,no_lyrics,en,lofi instrumental music,lofi instrumental music,50,5,1,0.99
+US,United States,North America,pop,instrumental,no_lyrics,en,pop instrumental music,pop instrumental music,50,6,2,1.0718181818181818
+US,United States,North America,pop,lyrical,english,en,English pop song,English pop song,50,46,11,1.2716326530612245
+PH,Philippines,Southeast Asia,pop,lyrical,local_language,tl,Filipino pop song,Filipino pop song,50,30,9,42.0
+JP,Japan,East Asia,pop,lyrical,local_language,ja,Japanese pop song,Japanese pop song,50,22,4,253.91489361702128
+JP,Japan,East Asia,jazz,instrumental,no_lyrics,ja,Japanese jazz instrumental,Japanese jazz instrumental,50,26,7,243.78
+VN,Vietnam,Southeast Asia,lofi,instrumental,no_lyrics,vi,Vietnamese lofi music,Vietnamese lofi music,50,40,5,5877.530612244898
+AU,Australia,Oceania,pop,lyrical,english,en,Australian pop song,Australian pop song,50,32,9,2.1206521739130433
+BR,Brazil,Latin America,bossa nova,instrumental,no_lyrics,pt,Bossa nova instrumental,Bossa nova instrumental,50,5,3,1.892
+BR,Brazil,Latin America,jazz,instrumental,no_lyrics,pt,Brazilian jazz instrumental,Brazilian jazz instrumental,50,39,11,2.4530612244897956
+BR,Brazil,Latin America,pop,lyrical,local_language,pt,Portuguese pop song,Portuguese pop song,50,34,10,2.6
+CA,Canada,North America,pop,lyrical,english,en,English pop song Canada,English pop song Canada,50,37,14,1.194
+DE,Germany,Europe,lofi,instrumental,no_lyrics,de,German lofi music,German lofi music,50,34,17,1.254
+DE,Germany,Europe,pop,lyrical,local_language,de,German pop song,German pop song,50,38,6,1.25875
+ES,Spain,Europe,jazz,instrumental,no_lyrics,es,Spanish jazz instrumental,Spanish jazz instrumental,50,45,16,1.242
+ES,Spain,Europe,pop,lyrical,humorous,es,Spanish funny song,Spanish funny song,50,37,5,1.272
+ES,Spain,Europe,pop,lyrical,local_language,es,Spanish pop song Spain,Spanish pop song Spain,50,41,8,1.158
+FR,France,Europe,jazz,instrumental,no_lyrics,fr,French jazz instrumental,French jazz instrumental,50,36,12,1.247142857142857
+FR,France,Europe,lofi,instrumental,no_lyrics,fr,French lofi music,French lofi music,50,45,15,1.2371428571428573
+FR,France,Europe,pop,lyrical,local_language,fr,French pop song,French pop song,50,36,7,1.2322
+GB,United Kingdom,Europe,pop,instrumental,no_lyrics,en,pop instrumental music UK,pop instrumental music UK,50,45,11,0.978
+GB,United Kingdom,Europe,pop,lyrical,english,en,UK pop song,UK pop song,50,46,13,0.9687234042553192
+HK,Hong Kong,East Asia,pop,lyrical,local_language,zh,Cantonese pop song,Cantonese pop song,50,20,2,8.0
+ID,Indonesia,Southeast Asia,lofi,instrumental,no_lyrics,id,Indonesian lofi music,Indonesian lofi music,50,30,10,6061.224489795918
+ID,Indonesia,Southeast Asia,pop,lyrical,local_language,id,Indonesian pop song,Indonesian pop song,50,34,10,5938.775510204082
+IN,India,South Asia,devotional,lyrical,local_language,hi,Hindi devotional song,Hindi devotional song,50,19,5,15.4
+IN,India,South Asia,pop,lyrical,local_language,hi,Hindi pop song,Hindi pop song,50,42,10,16.94
+IT,Italy,Europe,jazz,instrumental,no_lyrics,it,Italian jazz instrumental,Italian jazz instrumental,50,44,15,1.22265306122449
+IT,Italy,Europe,pop,lyrical,local_language,it,Italian pop song,Italian pop song,50,40,8,1.0402
+JP,Japan,East Asia,city pop,lyrical,local_language,ja,Japanese city pop,Japanese city pop,50,40,8,245.8
+JP,Japan,East Asia,lofi,instrumental,no_lyrics,ja,Japanese lofi study music,Japanese lofi study music,50,45,14,247.86
+VN,Vietnam,Southeast Asia,pop,lyrical,local_language,vi,Vietnamese pop song,Vietnamese pop song,50,34,6,5927.0625
