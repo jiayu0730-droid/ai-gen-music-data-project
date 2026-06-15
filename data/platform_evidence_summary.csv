@@ -1,0 +1,10 @@
+platform,platform_group,public_data_available,actual_method,num_observations,avg_priority,key_metrics,project_use
+Spotify,music streaming,Limited public API; no public track stream counts through normal Web API,Spotify for Artists/DistroKid royalty export/manual dashboard,1,4.0,"streams,followers,popularity,revenue,country/listener market if available",Use to verify threshold problem and low-payout early-stage tracks
+TikTok main app,short-form discovery,Yes with Research API access or manual collection,TikTok Research API or manual search,1,4.0,"views,likes,comments,shares,region_code,hashtags,music_id/video_description",Use as best public proxy for music virality and engagement
+YouTube Music,music streaming / YouTube ecosystem,Limited; available mainly for owned channels/assets,YouTube Studio/Analytics export or YouTube Analytics API,2,3.5,"views,estimated revenue,country,watch time,RPM/CPM if available",Use to test claim that YouTube pays better and varies by region
+Facebook/Instagram,,,,1,3.0,,
+NetEase Cloud Music,China streaming/community music,Limited public; creator dashboard/manual export needed,NetEase musician dashboard/manual search/distributor statement,1,3.0,"plays,comments,likes/favorites,revenue",Use to test comment-metric relationship and low unit payout
+Overall,,,,1,3.0,,
+Tencent Music,China streaming,Limited public; creator dashboard/manual export needed,Tencent Musician/TME dashboard or distributor statement,1,3.0,"plays,comments,shares,followers,revenue,country/China market",Use to evaluate China volume vs low unit payout
+TikTok Music,music streaming,No active public dataset for ongoing collection,Historical/manual distributor reports only,1,3.0,"plays,revenue,country,track",Treat as historical platform observation only
+Luna,niche platform / distributor statement,Unclear public access,Distributor royalty report/manual statement,1,1.0,"plays,revenue,country,track",Use as niche-platform observation if statements show positive return

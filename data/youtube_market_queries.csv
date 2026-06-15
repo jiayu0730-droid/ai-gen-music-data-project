@@ -1,0 +1,58 @@
+country_code,country_name,region_group,platform,genre,content_type,lyric_style,language,query
+US,United States,North America,YouTube,pop,lyrical,english,en,English pop song
+US,United States,North America,YouTube,pop,instrumental,no_lyrics,en,pop instrumental music
+US,United States,North America,YouTube,jazz,instrumental,no_lyrics,en,jazz instrumental music
+US,United States,North America,YouTube,jazz,lyrical,vocal,en,jazz vocal song
+US,United States,North America,YouTube,lofi,instrumental,no_lyrics,en,lofi instrumental music
+CA,Canada,North America,YouTube,pop,lyrical,english,en,English pop song Canada
+CA,Canada,North America,YouTube,lofi,instrumental,no_lyrics,en,lofi study music Canada
+GB,United Kingdom,Europe,YouTube,pop,lyrical,english,en,UK pop song
+GB,United Kingdom,Europe,YouTube,pop,instrumental,no_lyrics,en,pop instrumental music UK
+GB,United Kingdom,Europe,YouTube,jazz,instrumental,no_lyrics,en,jazz instrumental UK
+DE,Germany,Europe,YouTube,pop,lyrical,local_language,de,German pop song
+DE,Germany,Europe,YouTube,lofi,instrumental,no_lyrics,de,German lofi music
+DE,Germany,Europe,YouTube,jazz,instrumental,no_lyrics,de,German jazz instrumental
+FR,France,Europe,YouTube,pop,lyrical,local_language,fr,French pop song
+FR,France,Europe,YouTube,lofi,instrumental,no_lyrics,fr,French lofi music
+FR,France,Europe,YouTube,jazz,instrumental,no_lyrics,fr,French jazz instrumental
+ES,Spain,Europe,YouTube,pop,lyrical,local_language,es,Spanish pop song Spain
+ES,Spain,Europe,YouTube,pop,lyrical,humorous,es,Spanish funny song
+ES,Spain,Europe,YouTube,jazz,instrumental,no_lyrics,es,Spanish jazz instrumental
+IT,Italy,Europe,YouTube,pop,lyrical,local_language,it,Italian pop song
+IT,Italy,Europe,YouTube,jazz,instrumental,no_lyrics,it,Italian jazz instrumental
+NL,Netherlands,Europe,YouTube,edm,instrumental,no_lyrics,nl,Dutch electronic music
+NL,Netherlands,Europe,YouTube,pop,lyrical,local_language,nl,Dutch pop song
+SE,Sweden,Europe,YouTube,pop,lyrical,local_language,sv,Swedish pop song
+SE,Sweden,Europe,YouTube,edm,instrumental,no_lyrics,sv,Swedish electronic music
+MX,Mexico,Latin America,YouTube,pop,lyrical,local_language,es,Mexican pop song
+MX,Mexico,Latin America,YouTube,pop,lyrical,humorous,es,Spanish funny song
+MX,Mexico,Latin America,YouTube,jazz,instrumental,no_lyrics,es,Latin jazz instrumental
+BR,Brazil,Latin America,YouTube,pop,lyrical,local_language,pt,Portuguese pop song
+BR,Brazil,Latin America,YouTube,jazz,instrumental,no_lyrics,pt,Brazilian jazz instrumental
+BR,Brazil,Latin America,YouTube,bossa nova,instrumental,no_lyrics,pt,Bossa nova instrumental
+IN,India,South Asia,YouTube,pop,lyrical,local_language,hi,Hindi pop song
+IN,India,South Asia,YouTube,lofi,instrumental,no_lyrics,hi,Hindi lofi music
+IN,India,South Asia,YouTube,devotional,lyrical,local_language,hi,Hindi devotional song
+JP,Japan,East Asia,YouTube,pop,lyrical,local_language,ja,Japanese pop song
+JP,Japan,East Asia,YouTube,jazz,instrumental,no_lyrics,ja,Japanese jazz instrumental
+JP,Japan,East Asia,YouTube,lofi,instrumental,no_lyrics,ja,Japanese lofi study music
+JP,Japan,East Asia,YouTube,city pop,lyrical,local_language,ja,Japanese city pop
+KR,South Korea,East Asia,YouTube,pop,lyrical,local_language,ko,Korean pop song
+KR,South Korea,East Asia,YouTube,lofi,instrumental,no_lyrics,ko,Korean lofi music
+KR,South Korea,East Asia,YouTube,jazz,instrumental,no_lyrics,ko,Korean jazz instrumental
+TW,Taiwan,East Asia,YouTube,pop,lyrical,local_language,zh,Taiwan mandarin pop song
+TW,Taiwan,East Asia,YouTube,lofi,instrumental,no_lyrics,zh,Taiwan lofi music
+HK,Hong Kong,East Asia,YouTube,pop,lyrical,local_language,zh,Cantonese pop song
+ID,Indonesia,Southeast Asia,YouTube,pop,lyrical,local_language,id,Indonesian pop song
+ID,Indonesia,Southeast Asia,YouTube,lofi,instrumental,no_lyrics,id,Indonesian lofi music
+PH,Philippines,Southeast Asia,YouTube,pop,lyrical,local_language,tl,Filipino pop song
+PH,Philippines,Southeast Asia,YouTube,pop,lyrical,english,en,OPM pop song
+TH,Thailand,Southeast Asia,YouTube,pop,lyrical,local_language,th,Thai pop song
+TH,Thailand,Southeast Asia,YouTube,lofi,instrumental,no_lyrics,th,Thai lofi music
+VN,Vietnam,Southeast Asia,YouTube,pop,lyrical,local_language,vi,Vietnamese pop song
+VN,Vietnam,Southeast Asia,YouTube,lofi,instrumental,no_lyrics,vi,Vietnamese lofi music
+MY,Malaysia,Southeast Asia,YouTube,pop,lyrical,local_language,ms,Malay pop song
+SG,Singapore,Southeast Asia,YouTube,pop,lyrical,english,en,Singapore pop song
+AU,Australia,Oceania,YouTube,pop,lyrical,english,en,Australian pop song
+AU,Australia,Oceania,YouTube,lofi,instrumental,no_lyrics,en,Australia lofi music
+NZ,New Zealand,Oceania,YouTube,pop,lyrical,english,en,New Zealand pop song

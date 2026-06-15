@@ -3,4 +3,4 @@ requests
 python-dotenv
 spotipy
 jupyter
-matplotlib 
+matplotlib matplotlib
