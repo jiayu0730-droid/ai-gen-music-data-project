@@ -14,6 +14,10 @@ OUTPUT_SUMMARY = DATA_DIR / "itunes_market_supply_summary.csv"
 
 
 def clean_query_for_itunes(query: str) -> str:
+    """
+    YouTube query 里可能有 shorts / music video 等词。
+    iTunes 主要查音乐 catalog，所以这里做简单清理。
+    """
     query = str(query)
     query = re.sub(r"\bshorts\b", "", query, flags=re.IGNORECASE)
     query = re.sub(r"\bmusic video\b", "music", query, flags=re.IGNORECASE)
@@ -138,3 +142,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
