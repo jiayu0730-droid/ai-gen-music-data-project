@@ -1,185 +1,54 @@
-# Platform Analysis: Apple iTunes
+## Music Platform Data Fetching Results
 
-## Objective
+### iTunes Data Fetching
 
-The objective of this analysis was to evaluate the Apple iTunes Search API as a potential data source for music industry research. Specifically, we investigated what types of music and musician information can be accessed through the public API and assessed its usefulness for future AI-generated music analytics.
+I implemented a Python script to fetch music data from the iTunes Search API. The script successfully collected 250 music records based on several search terms, including AI-generated music, Suno AI music, Taylor Swift, Drake, and The Weeknd.
 
----
+The collected iTunes dataset includes 250 rows and 10 columns:
 
-## Data Collection Method
+* Search term
+* Track name
+* Artist name
+* Album name
+* Release date
+* Genre
+* Track price
+* Currency
+* Preview URL
+* iTunes / Apple Music URL
 
-A Python-based data collection pipeline was developed using the Apple iTunes Search API.
+Based on the collected data, iTunes is useful for music catalog and metadata analysis. For example, the top genres in the dataset were R&B/Soul, Pop, Hip-Hop/Rap, Orchestral, and Country. The average track price was approximately $1.19.
 
-The following search terms were used:
+However, iTunes does not provide deeper performance or business metrics such as stream counts, artist followers, popularity scores, revenue, royalties, listener demographics, or user-level listening behavior.
 
-* AI generated music
-* Suno AI music
-* Taylor Swift
-* Drake
-* The Weeknd
+### Spotify Data Fetching
 
-The script successfully collected and exported 250 music records into a structured CSV dataset.
+I also implemented a Python script using the Spotify Web API and Spotipy package. The Spotify API connection was successfully established using a developer app, Client ID, Client Secret, and a local `.env` file.
 
-Output file:
+The script successfully searched for artist profiles including Taylor Swift, Drake, The Weeknd, Bad Bunny, and Ariana Grande, and returned basic artist information such as artist name, Spotify artist ID, and Spotify profile URL.
 
-```text
-data/itunes_music_data.csv
-```
+However, in the current fetching result, several expected fields, including followers, popularity score, and genres, were returned as missing values. Therefore, these fields are recorded as unavailable in the current implementation and may require further API troubleshooting or permission review.
 
-Dataset dimensions:
+### Summary of Available and Unavailable Data
 
-```text
-250 rows × 10 columns
-```
+| Data Type                 | iTunes        | Spotify                                |
+| ------------------------- | ------------- | -------------------------------------- |
+| Track Name                | Available     | Partial                                |
+| Artist Name               | Available     | Available                              |
+| Album Name                | Available     | Partial                                |
+| Genre                     | Available     | Not returned in current Spotify result |
+| Release Date              | Available     | Partial                                |
+| Track Price               | Available     | Not available                          |
+| Preview URL               | Available     | Partial                                |
+| Artist ID                 | Not available | Available                              |
+| Artist Profile URL        | Available     | Available                              |
+| Followers                 | Not available | Not returned in current Spotify result |
+| Popularity Score          | Not available | Not returned in current Spotify result |
+| Revenue                   | Not available | Not available                          |
+| Royalty / Payout Data     | Not available | Not available                          |
+| Listener Demographics     | Not available | Not available                          |
+| User-level Listening Data | Not available | Not available                          |
 
----
+### Key Finding
 
-## Available Data Fields
-
-The iTunes API provides access to music catalog metadata, including:
-
-| Category            | Field                    |
-| ------------------- | ------------------------ |
-| Song Information    | Track Name               |
-| Artist Information  | Artist Name              |
-| Album Information   | Album Name               |
-| Music Metadata      | Genre                    |
-| Music Metadata      | Release Date             |
-| Commercial Metadata | Track Price              |
-| Commercial Metadata | Currency                 |
-| Content Access      | Preview URL              |
-| Platform Reference  | iTunes / Apple Music URL |
-| Search Context      | Search Keyword           |
-
----
-
-## Dataset Summary
-
-### Top Genres
-
-Among the 250 collected records, the most common genres were:
-
-| Genre       | Count |
-| ----------- | ----- |
-| R&B/Soul    | 63    |
-| Pop         | 53    |
-| Hip-Hop/Rap | 32    |
-| Orchestral  | 24    |
-| Country     | 19    |
-| Rock        | 16    |
-
-Observation:
-
-* Mainstream genres such as Pop, Hip-Hop, and R&B dominate the dataset.
-* AI-generated music results frequently appeared in orchestral and cinematic categories.
-* Genre metadata is consistently available and can support future genre trend analysis.
-
----
-
-### Top Artists
-
-The most frequently returned artists were:
-
-| Artist                          | Count |
-| ------------------------------- | ----- |
-| Taylor Swift                    | 47    |
-| The Weeknd                      | 41    |
-| Drake                           | 27    |
-| M.Ahai                          | 24    |
-| Fabian Engelhardt Suno AI Music | 13    |
-
-Observation:
-
-* Major commercial artists dominate the search results.
-* Several AI-music-related artists and creators also appeared, including Suno-associated content.
-* This suggests that AI-generated music is already being distributed through mainstream music platforms.
-
----
-
-### Pricing Information
-
-Average track price:
-
-```text
-$1.19
-```
-
-Observation:
-
-* Pricing metadata is available through the API.
-* This allows basic commercial catalog analysis.
-* However, pricing does not represent actual revenue or streaming performance.
-
----
-
-## Data Not Available
-
-Although the API provides rich catalog information, several important analytics fields are not publicly accessible.
-
-### Audience Analytics
-
-Not Available:
-
-* Listener demographics
-* Geographic distribution
-* User age groups
-* User engagement behavior
-
-### Popularity Metrics
-
-Not Available:
-
-* Number of streams
-* Monthly listeners
-* Track popularity scores
-* Playlist placements
-
-### Artist Performance Metrics
-
-Not Available:
-
-* Artist followers
-* Fan growth trends
-* Engagement statistics
-
-### Revenue Metrics
-
-Not Available:
-
-* Streaming revenue
-* Artist earnings
-* Royalty payouts
-* Platform monetization data
-
----
-
-## Key Findings
-
-The Apple iTunes API is highly effective for collecting music catalog metadata, including songs, artists, albums, genres, release dates, pricing information, and preview links.
-
-However, the platform provides limited support for music performance analytics. Critical business metrics such as streams, followers, popularity scores, and revenue data are not available through the public API.
-
-As a result:
-
-### Suitable Use Cases
-
-* Music catalog research
-* Genre classification
-* Release trend analysis
-* Artist discovery
-* AI-generated music identification
-
-### Not Suitable For
-
-* Popularity analysis
-* Revenue analysis
-* Audience behavior analysis
-* Music marketing performance evaluation
-
----
-
-## Conclusion
-
-Apple iTunes serves as a strong source of music metadata and catalog information. It is valuable for building music databases and conducting content-level analysis.
-
-However, additional platforms such as Spotify and YouTube Music will be required to obtain artist popularity metrics, audience engagement indicators, and performance-related analytics needed for a comprehensive AI music intelligence platform.
+iTunes is more suitable for catalog-level music metadata collection, while Spotify is potentially more useful for artist-level popularity analysis. However, the current Spotify implementation only successfully returned basic artist identity fields and profile URLs. More troubleshooting is needed to access richer artist metrics.
